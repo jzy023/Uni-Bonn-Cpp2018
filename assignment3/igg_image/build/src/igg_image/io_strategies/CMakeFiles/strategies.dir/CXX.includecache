@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/igg_image/io_strategies/ppm_strategy.h
+string
+-
+iostream
+-
+fstream
+-
+sstream
+-
+igg_image/io_strategies/strategy.h
+../src/igg_image/io_strategies/igg_image/io_strategies/strategy.h
+
+../src/igg_image/io_strategies/strategy.h
+string
+-
+vector
+-
+
+/home/noreff/CppCourse/assignment3/igg_image/src/igg_image/io_strategies/ppm_strategy.cpp
+igg_image/io_strategies/ppm_strategy.h
+/home/noreff/CppCourse/assignment3/igg_image/src/igg_image/io_strategies/igg_image/io_strategies/ppm_strategy.h
+string
+-
+vector
+-
+

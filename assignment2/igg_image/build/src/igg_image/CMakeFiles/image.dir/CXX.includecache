@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/noreff/CppCourse/assignment2/igg_image/src/igg_image/image.C
+iostream
+-
+vector
+-
+math.h
+-
+image.H
+/home/noreff/CppCourse/assignment2/igg_image/src/igg_image/image.H
+io_tools.H
+/home/noreff/CppCourse/assignment2/igg_image/src/igg_image/io_tools.H
+
+/home/noreff/CppCourse/assignment2/igg_image/src/igg_image/image.H
+vector
+-
+string
+-
+
+/home/noreff/CppCourse/assignment2/igg_image/src/igg_image/io_tools.H
+fstream
+-
+string
+-
+vector
+-
+
