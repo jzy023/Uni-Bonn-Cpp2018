@@ -8,10 +8,11 @@ using namespace std;
 
 #include "lec2.h"
 
-
+/* compile with the following command lines:
+	> c++ -std=c++11 -c func.cpp -o func.o
+*/
 
 // Function Definitions
-// pass by copt
 int fSum(int a, int b){
 	return a + b;
 }

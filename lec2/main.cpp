@@ -1,14 +1,13 @@
 #include <iostream>
-#include <string>
-#include <array>
-#include <vector>
-#include <algorithm>
 
 using namespace std;
 
 #include "lec2.h"
 
-
+/* compile with the following command lines:
+	> ar rcs libfunc.a func.o
+	> c++ -std=c++11 main.cpp -L . -lfunc -o main
+*/
 
 int main(int argc, char const *argv[])
 {
